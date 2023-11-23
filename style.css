@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: url('img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    color: white;
+}
+
+header nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+.access-btn {
+    color: #23272A;
+    background-color: white;
+    border-radius: 30px;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+    text-transform: capitalize;
+}
+
+#cta {
+    width: 50%;
+    margin: 70px auto 0 auto;
+    text-align: center;
+}
+
+#cta h1 {
+    font-size: 40px;
+}
+
+#cta p {
+    margin-block: 50px 20px;
+    line-height: 140%;
+}
+
+#cta-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn-white {
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.btn-black {
+    background-color: #23272A;
+    color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding-block: 150px;
+    position: relative;
+}
+
+section .img-text {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+section .img-text figure {
+    flex-basis: 60%;
+}
+
+section .img-text figure img {
+    width: 90%;
+}
+
+section .img-text .section-text {
+    flex-basis: 30%;
+    padding-inline: 20px;
+}
+
+.odd-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section .section-text h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+section .section-text p {
+    line-height: 140%;
+}
+
+section.discord-services:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
+section.discord-services:nth-child(even) .img-text figure {
+    order: 1;
+}
+
+section.discord-services:last-child {
+    text-align: center;
+}
+
+.section-column {
+    width: 60%;
+}
+
+.section-column h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-column button {
+    background-color: #8EA1E1;
+    color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-column h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background-image: url('img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top;
+}
+
+footer {
+    background-color: #23272A;
+    color: white;
+    padding-block: 60px;
+}
+
+footer h3,
+footer h4 {
+    color: #7289DA;
+}
+
+footer h3 {
+    font-size: 30px;
+}
+
+footer ul {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding-block: 5px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .container>div {
+    flex-grow: 1;
+}
+
+footer .container>div:first-child {
+    flex-basis: 25%;
+}
+
+footer>div>div>h3 {
+    margin-bottom: 20px;
+}
+
+.social {
+    margin-block: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.flag::before {
+    content: "";
+    background-image: url("/assets/img/ita.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    width: 18px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.flag::after {
+    content: '\e5cf';
+    font-family: 'Material Symbols Outlined';
+    vertical-align: middle;
+}
+
+hr {
+    border: 0.5px solid #7289DA;
+    border-collapse: collapse;
+}
+
+footer .footer-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.register-btn {
+    color: white;
+    background-color: #8EA1E1;
+    border-radius: 30px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+    text-transform: capitalize;
+}
+
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    color: #F6F6F6;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
